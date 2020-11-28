@@ -1,0 +1,43 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src ="~/js/redirect.js"></script>
+
+
+<div class="formLeft">
+    <form class="buttonArea">
+        <div class="button" onclick="ChangeContext('Rules')">
+            <div class="buttonText">
+                <p>Правила игры</p>
+            </div>
+        </div>
+        <div class="button" onclick="ChangeContext('Level')">
+            <div class="buttonText">
+                <p>Выбор уровня</p>
+            </div>
+        </div>
+        <div class="button" onclick="ChangeContext('Difficult')">
+            <div class="buttonText">
+                <p>Сложность</p>
+            </div>
+        </div>
+        <div class="button" onclick="redirectTo('/Home/Index')">
+            <div class="buttonText">
+                <p>Назад</p>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="formRight">
+    <form class="infoArea">
+        <h1 id="header">Header</h1>
+        <div class="imageArea">
+            <img src="~/Images/def.jpg" id="image">
+        </div>
+        <div class="imageButtons">
+            <span class="imageButton">Предыдущая</span>
+            <span class="imageButton">Следующая</span>
+        </div>
+    </form>
+</div>

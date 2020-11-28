@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SietReals", "SietReals\SietReals.csproj", "{AF1C991B-978A-4C04-8316-94941FD871F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF1C991B-978A-4C04-8316-94941FD871F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF1C991B-978A-4C04-8316-94941FD871F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF1C991B-978A-4C04-8316-94941FD871F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF1C991B-978A-4C04-8316-94941FD871F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2672CD9B-A8D2-488E-8CE0-F1BDA0AED984}
+	EndGlobalSection
+EndGlobal

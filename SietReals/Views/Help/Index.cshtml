@@ -1,0 +1,40 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using SietReals.Models;
+@using SietReals.Controllers;
+
+<script src="~/js/redirect.js"></script>
+<script src="~/js/helpBehavior.js"></script>
+
+<div class="formLeft">
+    <form class="buttonArea">
+        <div class="button" onclick="ChangeContext('AR')">
+            <div class="buttonText">
+                <p>Настройка AR</p>
+            </div>
+        </div>
+        <div class="button" onclick="ChangeContext('Soft')">
+            <div class="buttonText">
+                <p>О приложении</p>
+            </div>
+        </div>
+        <div class="button" onclick="redirectTo('/Home/Index')">
+            <div class="buttonText">
+                <p>Назад</p>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="formRight">
+    <form class="infoArea">
+        <h1 id="header">Справка</h1>
+        <div class="imageArea">
+            <img src ="~/Images/def.jpg" id="image">
+        </div>
+        <div class="imageButtons">
+            <span class="imageButton" onclick="PrevHint()">Предыдущая</span>
+            <span class="imageButton" onclick="NextHint()">Следующая</span>
+        </div>
+    </form>
+</div>
